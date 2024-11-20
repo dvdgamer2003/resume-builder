@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Setup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile Setup</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="profile-setup">
+            <h1>Profile Setup</h1>
+            <div class="step-1">
+                <h2>Step 1: Personal Details</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone"><br><br>
+                    <input type="submit" value="Next">
+                </form>
+            </div>
+            <div class="step-2">
+                <h2>Step 2: Work Experience</h2>
+                <form>
+                    <label for="work-experience">Work Experience:</label>
+                    <textarea id="work-experience" name="work-experience"></textarea><br><br>
+                    <input type="submit" value="Next">
+                </form>
+            </div>
+            <div class="step-3">
+                <h2>Step 3: Skills</h2>
+                <form>
+                    <label for="skills">Skills:</label>
+                    <textarea id="skills" name="skills"></textarea><br><br>
+                    <input type="submit" value="Finish">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

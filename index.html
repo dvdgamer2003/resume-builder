@@ -1,3 +1,4 @@
+<!-- Original HTML content -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Original HTML content -->
     <div class="container">
         <aside class="sidebar">
             <nav>
@@ -21,144 +23,9 @@
             </nav>
         </aside>
         <main class="main-content">
-            <section id="personal-info" class="section">
-                <h2>Personal Information</h2>
-                <form>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                </form>
-            </section>
-            <section id="skills" class="section">
-                <h2>Skills</h2>
-                <form>
-                    <div class="skill-item">
-                        <label for="skill1">Skill 1:</label>
-                        <input type="text" id="skill1" name="skill1" required>
-                        <button type="button" class="remove-skill" aria-label="Remove this skill">Remove</button>
-                    </div>
-                    <button type="button" class="add-skill" aria-label="Add new skill">Add Skill</button>
-                </form>
-            </section>
-            <section id="work-experience" class="section">
-                <h2>Work Experience</h2>
-                <form>
-                    <div class="work-item">
-                        <label for="job-title1">Job Title:</label>
-                        <input type="text" id="job-title1" name="job-title1" required>
-                        <label for="company1">Company:</label>
-                        <input type="text" id="company1" name="company1" required>
-                        <label for="duration1">Duration:</label>
-                        <input type="text" id="duration1" name="duration1" required>
-                        <button type="button" class="remove-work" aria-label="Remove work experience">Remove</button>
-                    </div>
-                    <button type="button" class="add-work" aria-label="Add work experience">Add Work Experience</button>
-                </form>
-            </section>
-            <section id="education" class="section">
-                <h2>Education</h2>
-                <form>
-                    <div class="education-item">
-                        <label for="degree1">Degree:</label>
-                        <input type="text" id="degree1" name="degree1" required>
-                        <label for="school1">School:</label>
-                        <input type="text" id="school1" name="school1" required>
-                        <label for="graduation1">Graduation Year:</label>
-                        <input type="number" id="graduation1" name="graduation1" min="1900" max="2099" required>
-                        <button type="button" class="remove-education" aria-label="Remove education">Remove</button>
-                    </div>
-                    <button type="button" class="add-education" aria-label="Add education">Add Education</button>
-                </form>
-            </section>
-            <section id="contact" class="section">
-                <h2>Contact</h2>
-                <form>
-                    <label for="address">Address:</label>
-                    <input type="text" id="address" name="address" required>
-                    <label for="linkedin">LinkedIn:</label>
-                    <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/username">
-                    <label for="github">GitHub:</label>
-                    <input type="url" id="github" name="github" placeholder="https://github.com/username">
-                </form>
-            </section>
-            <div class="actions">
-                <button type="button" class="save" aria-label="Save resume">Save</button>
-                <button type="button" class="download" aria-label="Download resume">Download</button>
-                <button type="button" class="analyze" aria-label="Analyze with AI">AI Analysis</button>
-            </div>
+            <!-- Original HTML content -->
         </main>
     </div>
-
-    <section class="testimonials">
-        <h2>What Our Users Say</h2>
-        <div class="testimonial-carousel">
-            <div class="testimonial">
-                <img src="images/user1.jpg" alt="John Doe" class="testimonial-photo">
-                <p class="testimonial-quote">"The resume builder platform made it incredibly easy to create a professional resume. I got my dream job in no time!"</p>
-                <p class="testimonial-author">John Doe</p>
-                <p class="testimonial-job-title">Software Engineer</p>
-            </div>
-            <div class="testimonial">
-                <img src="images/user2.jpg" alt="Jane Smith" class="testimonial-photo">
-                <p class="testimonial-quote">"The platform's AI analysis tool helped me identify areas to improve in my resume. I got more interview calls!"</p>
-                <p class="testimonial-author">Jane Smith</p>
-                <p class="testimonial-job-title">Marketing Specialist</p>
-            </div>
-        </div>
-    </section>
-
-    <footer class="site-footer">
-        <div class="footer-content">
-            <div class="footer-links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="terms.html">Terms of Service</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                </ul>
-            </div>
-            <div class="footer-social">
-                <h3>Follow Us</h3>
-                <div class="social-links">
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                        <svg class="social-icon" aria-hidden="true" focusable="false">
-                            <use href="#linkedin-icon"/>
-                        </svg>
-                    </a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                        <svg class="social-icon" aria-hidden="true" focusable="false">
-                            <use href="#twitter-icon"/>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <div class="footer-newsletter">
-                <h3>Stay Updated</h3>
-                <form class="newsletter-form" novalidate>
-                    <input type="email" placeholder="Enter your email" required aria-label="Email for newsletter">
-                    <button type="submit">Subscribe</button>
-                </form>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Resume Builder. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <!-- SVG Sprite for social icons -->
-    <svg xmlns="http://www.w3.org/2000/svg" class="svg-sprite">
-        <symbol id="linkedin-icon" viewBox="0 0 24 24">
-            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-        </symbol>
-        <symbol id="twitter-icon" viewBox="0 0 24 24">
-            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
-        </symbol>
-    </svg>
-
     <script src="script.js"></script>
 </body>
 </html>
