@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Resources & Blog</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="career-resources">
+        <h1>Career Resources & Blog</h1>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search articles...">
+            <button onclick="filterArticles()">Search</button>
+        </div>
+        <div class="filters">
+            <label for="category">Category:</label>
+            <select id="category" onchange="filterArticles()">
+                <option value="">All</option>
+                <option value="resume-building">Resume Building</option>
+                <option value="job-hunting">Job Hunting</option>
+                <option value="career-growth">Career Growth</option>
+            </select>
+            <label for="sort">Sort by:</label>
+            <select id="sort" onchange="filterArticles()">
+                <option value="date">Date</option>
+                <option value="popularity">Popularity</option>
+            </select>
+        </div>
+        <div class="blog-feed" id="blogFeed">
+            <!-- Articles will be dynamically inserted here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+</write_to_file>
